@@ -8,8 +8,8 @@ impares=0
 positivos=0
 negativos=0
 
-for i in range(10):
-    num = int(input(f"Ingrese el número entero {i+1}/{10}: "))
+for i in range(100):
+    num = int(input(f"Ingrese el número entero {i+1}/{100}: "))
     
     
     if num % 2 == 0:
